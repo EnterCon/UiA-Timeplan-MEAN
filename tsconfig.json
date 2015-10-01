@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "out": "server/tsc.js",
+        "sourceMap": true
+    },
+    "filesGlob": [
+        "server/**/*.ts",
+        "client/*.ts",
+        "client/*.ts",
+        "client/*.ts",
+        "client/*.ts"
+    ],
+    "files": [
+        "server/Models.ts",
+        "server/Modules.d.ts",
+        "server/Scraper.ts"
+    ]
+}
